@@ -13,8 +13,8 @@
 #define __REG_SEL(a,b)	__ASM_STR(b)
 #endif
 
-#define REG_L		__REG_SEL(ld, lw)
-#define REG_S		__REG_SEL(sd, sw)
+#define REG_L		__REG_SEL(ldct, lw)
+#define REG_S		__REG_SEL(sdct, sw)
 #define SZREG		__REG_SEL(8, 4)
 #define LGREG		__REG_SEL(3, 2)
 
